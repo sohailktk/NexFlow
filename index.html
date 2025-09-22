@@ -1,79 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NexFlow</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background: #4f46e5;
-            color: white;
-            text-align: center;
-            padding: 60px 20px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        header p {
-            margin-top: 10px;
-            font-size: 1.2rem;
-        }
-        section {
-            padding: 40px 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        h2 {
-            color: #4f46e5;
-        }
-        a.button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 25px;
-            background: #4f46e5;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #e0e0e0;
-            margin-top: 40px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NexFlow - AI Powered Automation</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #4f46e5, #4338ca);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      margin: 15px 0;
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 30px;
+      background: #22c55e;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .cta-btn:hover {
+      background: #16a34a;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #4f46e5;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .feature-card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .steps {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      text-align: center;
+    }
+    .step {
+      flex: 1 1 250px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #e5e7eb;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-    <h1>NexFlow</h1>
-    <p>Automating business processes with AI and No-Code solutions.</p>
+  <h1>NexFlow</h1>
+  <p>AI-powered automation platform that helps businesses streamline workflows and save valuable time with no-code solutions.</p>
+  <a href="mailto:NexFlow@sohailkhattak.tech" class="cta-btn">Get Started</a>
 </header>
 
 <section>
-    <h2>About Us</h2>
-    <p>We are building smart automation tools to help businesses save time and resources. Our platform integrates with multiple apps to create seamless workflows without coding.</p>
+  <h2>Our Features</h2>
+  <div class="features">
+    <div class="feature-card">
+      <h3>🤖 AI Automation</h3>
+      <p>Automate repetitive tasks with intelligent AI-driven workflows.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🔗 Easy Integrations</h3>
+      <p>Connect seamlessly with your favorite tools and apps in minutes.</p>
+    </div>
+    <div class="feature-card">
+      <h3>⚡ Time & Cost Saving</h3>
+      <p>Reduce manual work and cut operational costs effectively.</p>
+    </div>
+    <div class="feature-card">
+      <h3>📈 Scalable</h3>
+      <p>Grow without limits — NexFlow adapts to your business needs.</p>
+    </div>
+  </div>
+</section>
 
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:NexFlow@sohailkhattak.tech">NexFlow@sohailkhattak.tech</a></p>
-    <p>Website: <a href="https://nexflowai.netlify.app/">https://nexflowai.netlify.app/</a></p>
-    
-    <a class="button" href="mailto:NexFlow@sohailkhattak.tech">Get in Touch</a>
+<section>
+  <h2>How It Works</h2>
+  <div class="steps">
+    <div class="step">
+      <h3>1. Connect</h3>
+      <p>Link your apps and data sources in one platform.</p>
+    </div>
+    <div class="step">
+      <h3>2. Automate</h3>
+      <p>Create workflows in a simple, no-code builder powered by AI.</p>
+    </div>
+    <div class="step">
+      <h3>3. Optimize</h3>
+      <p>Track performance and improve efficiency continuously.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p style="text-align:center;">
+    Email: <a href="mailto:NexFlow@sohailkhattak.tech">NexFlow@sohailkhattak.tech</a><br>
+    Website: <a href="https://nexflowai.netlify.app/">https://nexflowai.netlify.app</a>
+  </p>
 </section>
 
 <footer>
-    &copy; 2025 Your Startup Name. All rights reserved.
+  &copy; 2025 NexFlow. All rights reserved.
 </footer>
 
 </body>
 </html>
-
