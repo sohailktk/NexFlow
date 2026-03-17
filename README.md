@@ -1,3 +1,4 @@
+> 🚀 Built for developers to create real-world AI automation workflows using n8n
 # NexFlow - AI Automation Workflows 🚀
 
 NexFlow is an open-source AI automation platform built using n8n.  
@@ -55,3 +56,8 @@ n8n
 ## 📜 License
 
 MIT License
+
+---
+## 🌟 Support
+
+If you like this project, please give it a ⭐ on GitHub!
